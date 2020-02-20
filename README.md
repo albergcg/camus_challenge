@@ -1,4 +1,4 @@
-### Cardiac Acquisitions for Multi-structure Ultrasound Segmentation
+#### Cardiac Acquisitions for Multi-structure Ultrasound Segmentation
 > Alberto García-Galindo
 
 > Institute of Biomedical Research of Salamanca
