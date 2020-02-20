@@ -1,2 +1,2 @@
-# camus
-This repository hosts all the code and information related to CAMUS challenge. 
+# Cardiac Acquisitions for Multi-structure Ultrasound Segmentation
+## Alberto García-Galindo
