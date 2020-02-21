@@ -26,4 +26,4 @@ More information about the project can be found [here](https://www.creatis.insa-
 
 ##### LadderNet (Zhuang, 2019)
 
-![alt text](https://github.com/Alberto267/camus_challenge/blob/master/img/laddernet.png)
+![alt text](https://github.com/Alberto267/camus_challenge/blob/master/img/ladder.png)
