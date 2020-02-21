@@ -15,6 +15,10 @@ More information about the project can be found [here](https://www.creatis.insa-
 
 #### Automatic Segmentation Example
 
+<p align="center">
+  <src="https://github.com/Alberto267/camus_challenge/blob/master/img/patient0001-2CH.gif">
+</p>
+
 ![alt text](https://github.com/Alberto267/camus_challenge/blob/master/img/patient0001-2CH.gif)
 
 
