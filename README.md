@@ -3,8 +3,6 @@
 
 > Institute of Biomedical Research of Salamanca
 
-![alt text](https://github.com/Alberto267/camus_challenge/blob/master/img/patient0001-2CH.gif)
-
 #### Challenge overview
 
 The goal of this project is to provide all the materials to the community to resolve the problem of echocardiographic image segmentation and volume estimation from 2D ultrasound sequences (both two and four-chamber views). To this aim, the following solutions were set-up:
@@ -16,5 +14,8 @@ The goal of this project is to provide all the materials to the community to res
 More information about the project can be found [here](https://www.creatis.insa-lyon.fr/Challenge/camus/index.html)
 
 #### Automatic Segmentation Example
+
+![alt text](https://github.com/Alberto267/camus_challenge/blob/master/img/patient0001-2CH.gif)
+
 
 #### Encoder-Decoder Architectures
