@@ -3,7 +3,7 @@
 
 > Institute of Biomedical Research of Salamanca
 
-![alt text](https://github.com/Alberto267/camus_challenge/imgs/patient0001-2CH.gif)
+![alt text](https://github.com/Alberto267/camus_challenge/blob/master/img/patient0001-2CH.gif)
 
 #### Challenge overview
 
