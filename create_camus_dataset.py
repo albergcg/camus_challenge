@@ -1,19 +1,26 @@
+# Requirements
 import os
 import numpy as np
 import SimpleITK as sitk
 import h5py
 import cv2
 
+# Path to the training folder
 train_path = "../data/training/"
 
 def mhd_to_array(path):
+    """
+    Read a *.mhd file stored in path and return it as a numpy array.
+    """
     return sitk.GetArrayFromImage(sitk.ReadImage(path, sitk.sitkFloat32))
 
+# Define lists storing all images names
 train_2ch_frames_list = sorted(os.listdir(train_path + "2ch/frames/"))
 train_2ch_masks_list = sorted(os.listdir(train_path + "2ch/masks/"))
 train_4ch_frames_list = sorted(os.listdir(train_path + "4ch/frames/"))
 train_4ch_masks_list = sorted(os.listdir(train_path + "4ch/masks/"))
 
+# Create hierarchical h5py file, ready to be filled with 4 datasets
 f = h5py.File("../data/image_dataset.hdf5", "w")
 
 f.create_dataset("train 2ch frames", (900, 384, 384, 1),
@@ -28,6 +35,7 @@ f.create_dataset("train 4ch frames", (900, 384, 384, 1),
 f.create_dataset("train 4ch masks", (900, 384, 384, 1),
                 chunks = (4, 384, 384, 1), dtype = "int32")
 
+# Iterate over images and save them into the corresponding dataset
 j = 0
 for i in train_2ch_frames_list:
     if "mhd" in i:
